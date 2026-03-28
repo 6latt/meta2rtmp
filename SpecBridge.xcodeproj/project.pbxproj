@@ -293,9 +293,9 @@
 				INFOPLIST_FILE = SpecBridge/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SpecBridge;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Need to connect to Ray-Ban Meta glasses";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Required for streaming video from Ray-Ban Meta glasses.";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Required for streaming audio from Ray-Ban Meta glasses.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Need to connect to Meta smart glasses";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Required for streaming video from Meta smart glasses.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Required for streaming audio from Meta smart glasses.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -345,9 +345,9 @@
 				INFOPLIST_FILE = SpecBridge/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SpecBridge;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Need to connect to Ray-Ban Meta glasses";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Required for streaming video from Ray-Ban Meta glasses.";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Required for streaming audio from Ray-Ban Meta glasses.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Need to connect to Meta smart glasses";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Required for streaming video from Meta smart glasses.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Required for streaming audio from Meta smart glasses.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
