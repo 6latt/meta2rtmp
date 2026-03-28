@@ -1,16 +1,18 @@
 # SpecBridge
 
-SpecBridge is an open-source iOS toolkit that connects Ray-Ban Meta smart glasses to **Twitch**. It serves as a bridge between the Meta Wearables Device Access Toolkit (DAT) and standard broadcasting protocols, allowing developers to build custom live-streaming experiences.
+SpecBridge is an open-source iOS toolkit that connects **Meta AI Glasses** to **Twitch**. It serves as a bridge between the Meta Wearables Device Access Toolkit (DAT) and standard broadcasting protocols, allowing developers to build custom live-streaming experiences.
 
 *Note: While the underlying architecture supports RTMP (allowing for potential YouTube/Kick support), this version is currently hardcoded for Twitch.*
 
 ## Features
 - **720p Vertical Video:** Native support for 9:16 portrait streaming (1280x720) optimized for mobile viewing.
 - **Smart Encoder Priming:** Eliminates "black screen" or "1x1 aspect ratio" glitches on stream start by pre-analyzing video headers.
-- **Live Video Bridge:** Routes raw video frames from Ray-Ban Meta glasses directly to Twitch.
+- **Live Video Bridge:** Routes raw video frames from Meta AI Glasses directly to Twitch.
 - **Audio Handling:** Manages iOS audio sessions to prevent Bluetooth disconnects during streaming.
 - **Secure Auth:** Setup screen to input and store your Twitch Stream Key locally on the device.
 - **Modern Swift:** Uses Swift Concurrency (async/await) and the Actor model for thread-safe streaming.
+- **Debug Panel:** In-app debug screen showing registration, permission, device, stream state, frame count, and full logs.
+- **Fallback Quality Presets:** Four stream quality configs (High/24fps, Medium/24fps, Medium/15fps, Low/15fps) selectable from the UI.
 
 ## Prerequisites
 
@@ -19,7 +21,7 @@ Before attempting to build this project, ensure you have the following:
 ### Hardware
 - **Mac:** A Mac computer capable of running Xcode.
 - **iPhone:** An iPhone running iOS 17.0 or later.
-- **Smart Glasses:** Ray-Ban Meta Smart Glasses (Gen 2).
+- **Smart Glasses:** Meta AI Glasses (Ray-Ban Gen 2 or Oakley — any device supported by the Meta Wearables DAT).
 
 ### Software & Accounts
 - **Xcode 15+:** Required to compile the Swift code.
