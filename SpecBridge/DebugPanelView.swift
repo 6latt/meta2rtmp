@@ -19,10 +19,10 @@ struct DebugPanelView: View {
 
                 // Streaming
                 Section("Streaming") {
-                    row(label: "Stream State",  value: logger.streamState)
+                    row(label: "Stream State",   value: logger.streamState)
                     row(label: "Glasses Frames", value: "\(logger.frameCount)")
-                    row(label: "RTMP Frames",   value: "\(logger.rtmpFrameCount)")
-                    row(label: "Last Error",    value: logger.lastError)
+                    row(label: "RTMP Frames",    value: "\(logger.rtmpFrameCount)")
+                    row(label: "Last Error",     value: logger.lastError)
                 }
 
                 // Log
