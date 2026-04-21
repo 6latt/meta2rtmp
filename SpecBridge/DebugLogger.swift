@@ -17,6 +17,7 @@ final class DebugLogger: ObservableObject {
     @Published var deviceInfo: String        = "None"
     @Published var streamState: String       = "Idle"
     @Published var frameCount: Int           = 0
+    @Published var rtmpFrameCount: Int       = 0
     @Published var lastError: String         = "None"
     @Published var logEntries: [LogEntry]    = []
 
@@ -85,9 +86,10 @@ final class DebugLogger: ObservableObject {
     }
 
     func resetSession() {
-        frameCount   = 0
-        streamState  = "Idle"
-        lastError    = "None"
-        deviceInfo   = "None"
+        frameCount      = 0
+        rtmpFrameCount  = 0
+        streamState     = "Idle"
+        lastError       = "None"
+        deviceInfo      = "None"
     }
 }
